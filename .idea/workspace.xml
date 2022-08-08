@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0faf5b07-f031-4788-b3f3-485f0152a09d" name="Changes" comment="" />
+    <list default="true" id="0faf5b07-f031-4788-b3f3-485f0152a09d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enumpoly.iml" beforeDir="false" afterPath="$PROJECT_DIR$/enumpoly.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/arminmac/enumpoly/CardLogoType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/arminmac/enumpoly/CardLogoType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/arminmac/enumpoly/CardType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/arminmac/enumpoly/CardType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/arminmac/enumpoly/EnumPolymorphismPatternTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/arminmac/enumpoly/EnumPolymorphismPatternTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/arminmac/enumpoly/MasterCardType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/arminmac/enumpoly/MasterCardType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/arminmac/enumpoly/VisaCardType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/arminmac/enumpoly/VisaCardType.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2D3DmzwsNjLZmyBU19sVIPRhMTC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -15,19 +37,96 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.EnumPolymorphismPatternTest">
+    <configuration name="EnumPolymorphismPatternTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="enumpoly" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.arminmac.enumpoly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.arminmac.enumpoly" />
+      <option name="MAIN_CLASS_NAME" value="com.github.arminmac.enumpoly.EnumPolymorphismPatternTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumPolymorphismPatternTest.shouldNotReturnCorrectTypeFromCodeGivenInvalidCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="enumpoly" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.arminmac.enumpoly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.arminmac.enumpoly" />
+      <option name="MAIN_CLASS_NAME" value="com.github.arminmac.enumpoly.EnumPolymorphismPatternTest" />
+      <option name="METHOD_NAME" value="shouldNotReturnCorrectTypeFromCodeGivenInvalidCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumPolymorphismPatternTest.shouldReturnCorrectTypeFromCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="enumpoly" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.arminmac.enumpoly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.arminmac.enumpoly" />
+      <option name="MAIN_CLASS_NAME" value="com.github.arminmac.enumpoly.EnumPolymorphismPatternTest" />
+      <option name="METHOD_NAME" value="shouldReturnCorrectTypeFromCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EnumPolymorphismPatternTest" />
+        <item itemvalue="JUnit.EnumPolymorphismPatternTest.shouldNotReturnCorrectTypeFromCodeGivenInvalidCode" />
+        <item itemvalue="JUnit.EnumPolymorphismPatternTest.shouldReturnCorrectTypeFromCode" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="0faf5b07-f031-4788-b3f3-485f0152a09d" name="Changes" comment="" />
       <created>1659919040043</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659919040043</updated>
+      <workItem from="1659919046831" duration="4510000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

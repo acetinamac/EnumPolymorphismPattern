@@ -3,21 +3,30 @@ package com.github.arminmac.enumpoly;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
-public interface Types {
+public interface CardLogoType {
 
     String getCode();
 
-    CardType getCartType();
+    CardType getCardType();
 
-    static Optional<Types> fromCode(String code) {
-        List<Types> visaTypes = List.of(VisaCardType.Values());
+    static Optional<CardLogoType> fromCode(String code) {
+        List<CardLogoType> visaTypes = List.of(VisaCardType.values());
+        List<CardLogoType> masterTypes = List.of(MasterCardType.values());
 
-        return null;
+        return Stream.of(visaTypes, masterTypes)
+                .flatMap(List::stream)
+                .filter(card -> card.getCode().equals(code))
+                .findFirst();
     }
 
-    static Set<Types> fromCardType(CardType cardType) {
-        return null;
+    static Set<CardLogoType> fromCardType(CardType cardType) {
+        return Stream.of(List.of(VisaCardType.values()), List.of(MasterCardType.values()))
+                .flatMap(List::stream)
+                .filter(card -> ((CardLogoType) card).getCardType().equals(cardType))
+                .collect(Collectors.toSet());
     }
 
 }
